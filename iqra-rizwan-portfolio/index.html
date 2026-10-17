@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iqra Rizwan — WordPress Developer</title>
+  <meta name="description" content="Iqra Rizwan is a WordPress developer building responsive websites with Elementor, WooCommerce and custom WordPress plugins.">
+
+  <!-- Small "IR" icon shown in the browser tab -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230a1a33'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-size='30' fill='%239ec0f7'%3EIR%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Plus Jakarta Sans (main text) + Instrument Serif (elegant accents) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Tells the CSS that JavaScript is on, so scroll animations can run -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- =====================================================
+       NAVIGATION BAR
+       ===================================================== -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Iqra Rizwan — back to top">
+        <span class="logo-mark">IR</span>
+        <span class="logo-text">Iqra Rizwan</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-mobile-only"><a href="#contact" class="btn btn-glow btn-block">Let's work together</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-glow btn-small nav-cta">Let's talk</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid-lines"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-badge reveal">
+            <span class="pulse" aria-hidden="true"></span>
+            WordPress Developer
+          </p>
+
+          <h1 class="hero-title reveal" data-delay="100">
+            <span class="hero-hello">Hello, I'm</span>
+            Iqra <span class="serif">Rizwan</span>
+          </h1>
+
+          <p class="hero-intro reveal" data-delay="200">
+            I design and develop modern, responsive WordPress websites — from elegant
+            business sites and WooCommerce stores to custom plugins that add exactly
+            the functionality a project needs.
+          </p>
+
+          <div class="hero-actions reveal" data-delay="300">
+            <a href="#projects" class="btn btn-glow">
+              View my projects
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+
+          <ul class="hero-social reveal" data-delay="350" aria-label="Find me online">
+            <li><a href="https://github.com/iqrarizwan5000-lang" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.81c0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/in/iqra-rizwan-b6431b370" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3v-11zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v5.45h-4v-4.83c0-1.15-.02-2.63-1.6-2.63-1.6 0-1.85 1.25-1.85 2.55v4.91h-4v-11z"/></svg></a></li>
+            <li><a href="mailto:iqra.rizwan5000@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></a></li>
+          </ul>
+
+          <ul class="hero-stack reveal" data-delay="400" aria-label="Core tools">
+            <li>WordPress</li>
+            <li>Elementor</li>
+            <li>WooCommerce</li>
+            <li>Custom Plugins</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <!-- Decorative code window (shows a WordPress plugin header) -->
+        <div class="hero-visual reveal" data-delay="250" aria-hidden="true">
+          <div class="code-card" id="codeCard">
+            <div class="code-card-bar">
+              <span class="dot dot-r"></span>
+              <span class="dot dot-y"></span>
+              <span class="dot dot-g"></span>
+              <span class="code-file">restaurant-chatbot.php</span>
+            </div>
+<pre><code><span class="tok-k">&lt;?php</span>
+<span class="tok-c">/**
+ * Plugin Name: Restaurant Chatbot
+ * Description: AI chat assistant
+ *              powered by the Groq API
+ */</span>
+
+<span class="tok-f">add_action</span>( <span class="tok-s">'wp_footer'</span>, <span class="tok-s">'rc_render_chat'</span> );
+
+<span class="tok-k">function</span> <span class="tok-f">rc_render_chat</span>() {
+    <span class="tok-c">// Responsive chat window</span>
+    <span class="tok-f">include</span> <span class="tok-s">'templates/chat.php'</span>;
+}</code></pre>
+          </div>
+
+          <div class="float-chip chip-1">
+            <span class="chip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            </span>
+            Fully responsive
+          </div>
+          <div class="float-chip chip-2">
+            <span class="chip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="10" cy="20" r="1.2"/><circle cx="17" cy="20" r="1.2"/></svg>
+            </span>
+            WooCommerce ready
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span class="scroll-mouse"><span></span></span>
+      </a>
+    </section>
+
+    <!-- =====================================================
+         ABOUT
+         ===================================================== -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="portrait">
+            <!-- OPTIONAL: To show your photo, put it in an "images" folder and
+                 replace the line below with:
+                 <img src="images/iqra.jpg" alt="Iqra Rizwan"> -->
+            <span class="portrait-monogram" aria-hidden="true">IR</span>
+
+            <div class="portrait-caption">
+              <span>
+                <strong>Iqra Rizwan</strong>
+                <small>WordPress Developer</small>
+              </span>
+              <span class="caption-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M5.5 8.5L9 18l3-8 3 8 3.5-9.5"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <p class="eyebrow reveal">About me</p>
+          <h2 class="section-title reveal" data-delay="100">
+            Thoughtful websites, <span class="serif">built with care.</span>
+          </h2>
+          <p class="reveal" data-delay="150">
+            I'm Iqra Rizwan, a WordPress developer who enjoys turning ideas into clean,
+            fast and easy-to-manage websites. I work across the WordPress toolkit —
+            building layouts with Elementor, setting up online stores with WooCommerce,
+            and writing custom plugins when a site needs something off-the-shelf tools
+            can't provide.
+          </p>
+          <p class="reveal" data-delay="200">
+            My projects include a restaurant website with its own AI-powered chatbot
+            plugin, a WooCommerce fashion store and a clinic website with online
+            appointment booking. I care about responsive layouts, small details and
+            websites that owners can confidently update themselves.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat reveal" data-delay="250">
+              <strong>3</strong>
+              <span>Completed projects</span>
+            </div>
+            <div class="stat reveal" data-delay="320">
+              <strong>1</strong>
+              <span>Custom AI plugin</span>
+            </div>
+            <div class="stat reveal" data-delay="390">
+              <strong>6</strong>
+              <span>Core skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         SKILLS
+         ===================================================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow reveal">Skills</p>
+          <h2 class="section-title reveal" data-delay="100">
+            What I <span class="serif">bring</span> to a project
+          </h2>
+          <p class="section-lead reveal" data-delay="150">
+            A focused set of tools for building WordPress websites that look great,
+            work smoothly and grow with your business.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-num">01</span>
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M5.5 8.5L9 18l3-8 3 8 3.5-9.5"/></svg>
+            </div>
+            <h3>WordPress Development</h3>
+            <p>Complete WordPress websites — setup, themes, plugins and content structure that's simple to manage.</p>
+          </article>
+
+          <article class="skill-card reveal" data-delay="80">
+            <span class="skill-num">02</span>
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8.5 7.5v9M12.5 7.5h3.5M12.5 12h3.5M12.5 16.5h3.5"/></svg>
+            </div>
+            <h3>Elementor</h3>
+            <p>Polished, pixel-careful page layouts built visually, so clients can edit content without touching code.</p>
+          </article>
+
+          <article class="skill-card reveal" data-delay="160">
+            <span class="skill-num">03</span>
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="10" cy="20" r="1.3"/><circle cx="17" cy="20" r="1.3"/></svg>
+            </div>
+            <h3>WooCommerce</h3>
+            <p>Online stores with product catalogues, cart and checkout, set up for a smooth shopping experience.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-num">04</span>
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2.5v4.5M15 2.5v4.5M6 7h12v4a6 6 0 0 1-12 0V7zM12 17v4.5"/></svg>
+            </div>
+            <h3>Custom Plugin Development</h3>
+            <p>Bespoke plugins that add new features — like an AI chatbot connected to an external API.</p>
+          </article>
+
+          <article class="skill-card reveal" data-delay="80">
+            <span class="skill-num">05</span>
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="14" height="11" rx="2"/><path d="M6 19h6M9 15v4"/><rect x="16.5" y="9" width="5.5" height="11" rx="1.5"/></svg>
+            </div>
+            <h3>Responsive Web Design</h3>
+            <p>Layouts that adapt beautifully to phones, tablets and desktops, with readable type at every size.</p>
+          </article>
+
+          <article class="skill-card reveal" data-delay="160">
+            <span class="skill-num">06</span>
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Interactive features and front-end behaviour that make websites feel modern and responsive to use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         FEATURED PROJECTS
+         Screenshots live in the "images" folder.
+         The screenshot gallery list is at the top of script.js.
+         To add a live demo later, copy a GitHub button and
+         change its link and text.
+         ===================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Featured projects</p>
+          <h2 class="section-title reveal" data-delay="100">
+            Selected <span class="serif">work</span>
+          </h2>
+          <p class="section-lead reveal" data-delay="150">
+            A few websites I've designed and developed with WordPress, each solving a
+            different kind of business need.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: The BBQ Place -->
+          <article class="project-card reveal">
+            <button class="project-media" type="button" data-gallery="bbq" aria-label="View The BBQ Place screenshots">
+              <img src="images/bbq-place/homepage.jpg" alt="The BBQ Place restaurant website homepage" loading="lazy" width="1400" height="648">
+              <span class="project-tag">Restaurant</span>
+              <span class="media-count"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-8 8"/></svg> 4 screenshots</span>
+              <span class="media-hover"><span>View screenshots</span></span>
+            </button>
+            <div class="project-body">
+              <span class="project-num">01</span>
+              <h3 class="project-title">The BBQ Place</h3>
+              <p class="project-desc">
+                A responsive restaurant website built with WordPress, with a menu, about and contact
+                pages. It includes a custom AI chatbot plugin I developed that uses the Groq API to
+                answer visitor questions about opening hours, location and contact details.
+              </p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li>WordPress</li>
+                <li>Custom Plugin</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>REST API</li>
+                <li>Groq API</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/iqrarizwan5000-lang/the-bbq-place-website" class="btn btn-primary btn-small" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.81c0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+                  View on GitHub
+                </a>
+                <button type="button" class="btn btn-outline btn-small" data-gallery="bbq">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-8 8"/></svg>
+                  Screenshots
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Fashion Store -->
+          <article class="project-card reveal" data-delay="120">
+            <button class="project-media" type="button" data-gallery="fashion" aria-label="View Fashion Store screenshots">
+              <img src="images/fashion-store/homepage.jpg" alt="Fashion Store e-commerce website homepage" loading="lazy" width="1400" height="648">
+              <span class="project-tag">E-commerce</span>
+              <span class="media-count"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-8 8"/></svg> 4 screenshots</span>
+              <span class="media-hover"><span>View screenshots</span></span>
+            </button>
+            <div class="project-body">
+              <span class="project-num">02</span>
+              <h3 class="project-title">Fashion Store</h3>
+              <p class="project-desc">
+                An e-commerce demo store built with WordPress and WooCommerce, designed in Elementor on
+                the Astra theme. It includes a promotional homepage, product categories, product
+                pages, cart, checkout and a responsive mobile layout.
+              </p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li>WordPress</li>
+                <li>WooCommerce</li>
+                <li>Elementor</li>
+                <li>Astra</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/iqrarizwan5000-lang/fashion-store" class="btn btn-primary btn-small" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.81c0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+                  View on GitHub
+                </a>
+                <button type="button" class="btn btn-outline btn-small" data-gallery="fashion">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-8 8"/></svg>
+                  Screenshots
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Dental Clinic -->
+          <article class="project-card reveal">
+            <button class="project-media" type="button" data-gallery="dental" aria-label="View Dental Clinic screenshots">
+              <img src="images/dental-clinic/homepage.jpg" alt="Dental Clinic website homepage" loading="lazy" width="1400" height="648">
+              <span class="project-tag">Healthcare</span>
+              <span class="media-count"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-8 8"/></svg> 5 screenshots</span>
+              <span class="media-hover"><span>View screenshots</span></span>
+            </button>
+            <div class="project-body">
+              <span class="project-num">03</span>
+              <h3 class="project-title">Dental Clinic</h3>
+              <p class="project-desc">
+                A professional clinic website built with WordPress and Elementor, with services, about
+                and contact pages and online appointment booking powered by LatePoint.
+              </p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li>WordPress</li>
+                <li>Elementor</li>
+                <li>LatePoint</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/iqrarizwan5000-lang/dental-clinic-website" class="btn btn-primary btn-small" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.81c0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+                  View on GitHub
+                </a>
+                <button type="button" class="btn btn-outline btn-small" data-gallery="dental">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-8 8"/></svg>
+                  Screenshots
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Real Estate (Coming Soon)
+               When finished: remove the "coming-soon" class, delete the
+               .coming-overlay block, and replace the disabled buttons with real links. -->
+          <article class="project-card coming-soon reveal" data-delay="120">
+            <div class="project-media">
+              <svg viewBox="40 32 520 336" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a planned real estate listings website with a map and property cards">
+                <defs>
+                  <linearGradient id="reBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef4ff"/><stop offset="1" stop-color="#d3e2fa"/></linearGradient>
+                  <linearGradient id="reImg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d9cf0"/><stop offset="1" stop-color="#1a3560"/></linearGradient>
+                </defs>
+                <rect width="600" height="400" fill="url(#reBg)"/>
+                <rect x="48" y="44" width="520" height="336" rx="14" fill="#0a1a33" opacity=".08"/>
+                <rect x="40" y="32" width="520" height="336" rx="14" fill="#fff"/>
+                <path d="M40 46a14 14 0 0 1 14-14h492a14 14 0 0 1 14 14v18H40z" fill="#f3f7fe"/>
+                <circle cx="60" cy="48" r="4.5" fill="#f5b3ab"/><circle cx="76" cy="48" r="4.5" fill="#f6d68e"/><circle cx="92" cy="48" r="4.5" fill="#a9dcb6"/>
+                <rect x="200" y="41" width="200" height="14" rx="7" fill="#fff"/>
+                <rect x="56" y="80" width="230" height="272" rx="12" fill="#dfe9fa"/>
+                <path d="M56 170 C120 160 180 210 286 190 M140 80 C150 160 120 260 160 352 M56 290 C130 280 200 300 286 270" stroke="#fff" stroke-width="7" fill="none"/>
+                <g transform="translate(110 150)" fill="#0a1a33"><path d="M0 0s-16-14-16-26a16 16 0 0 1 32 0c0 12-16 26-16 26z"/><circle cx="0" cy="-26" r="5" fill="#fff"/></g>
+                <g transform="translate(222 236)" fill="#4f86e8"><path d="M0 0s-16-14-16-26a16 16 0 0 1 32 0c0 12-16 26-16 26z"/><circle cx="0" cy="-26" r="5" fill="#fff"/></g>
+                <g transform="translate(130 320)" fill="#0a1a33"><path d="M0 0s-16-14-16-26a16 16 0 0 1 32 0c0 12-16 26-16 26z"/><circle cx="0" cy="-26" r="5" fill="#fff"/></g>
+                <rect x="302" y="80" width="242" height="128" rx="12" fill="#f3f7fe"/>
+                <rect x="312" y="90" width="92" height="108" rx="9" fill="url(#reImg)"/>
+                <path d="M331 168l27-22 27 22v22h-54z" fill="#fff" opacity=".85"/>
+                <rect x="418" y="102" width="100" height="10" rx="5" fill="#0a1a33"/>
+                <rect x="418" y="122" width="76" height="8" rx="4" fill="#6b7890" opacity=".45"/>
+                <rect x="418" y="170" width="60" height="12" rx="6" fill="#4f86e8"/>
+                <rect x="302" y="224" width="242" height="128" rx="12" fill="#f3f7fe"/>
+                <rect x="312" y="234" width="92" height="108" rx="9" fill="url(#reImg)" opacity=".75"/>
+                <path d="M331 312l27-22 27 22v22h-54z" fill="#fff" opacity=".85"/>
+                <rect x="418" y="246" width="90" height="10" rx="5" fill="#0a1a33"/>
+                <rect x="418" y="266" width="70" height="8" rx="4" fill="#6b7890" opacity=".45"/>
+                <rect x="418" y="314" width="60" height="12" rx="6" fill="#4f86e8"/>
+              </svg>
+              <div class="coming-overlay">
+                <span class="coming-badge">
+                  <span class="pulse" aria-hidden="true"></span>
+                  Coming Soon
+                </span>
+              </div>
+              <span class="project-tag">Real Estate</span>
+            </div>
+            <div class="project-body">
+              <span class="project-num">04</span>
+              <h3 class="project-title">Real Estate Listings Website</h3>
+              <p class="project-desc">
+                A planned WordPress website for showcasing property listings with a clean,
+                easy browsing experience. This project is currently in progress — details
+                will be shared once it's complete.
+              </p>
+              <ul class="tech-list" aria-label="Technologies planned">
+                <li>WordPress</li>
+                <li>In planning</li>
+              </ul>
+              <div class="project-actions">
+                <span class="btn btn-primary btn-small" aria-disabled="true">Live demo — soon</span>
+                <span class="btn btn-outline btn-small" aria-disabled="true">GitHub — soon</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CONTACT
+         ===================================================== -->
+    <section class="section contact" id="contact">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid-lines"></div>
+      </div>
+
+      <div class="container contact-inner">
+        <p class="eyebrow reveal">Contact</p>
+        <h2 class="section-title reveal" data-delay="100">
+          Let's build something <span class="serif">beautiful</span> together.
+        </h2>
+        <p class="contact-lead reveal" data-delay="150">
+          Have a WordPress website in mind, or need a custom feature for an existing one?
+          I'd love to hear about it.
+        </p>
+
+        <div class="contact-cards">
+          <a href="mailto:iqra.rizwan5000@gmail.com" class="contact-card reveal" data-delay="200">
+            <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></span>
+            <span class="contact-text">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">iqra.rizwan5000@gmail.com</span>
+            </span>
+            <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/iqra-rizwan-b6431b370" class="contact-card reveal" data-delay="260" target="_blank" rel="noopener">
+            <span class="contact-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3v-11zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v5.45h-4v-4.83c0-1.15-.02-2.63-1.6-2.63-1.6 0-1.85 1.25-1.85 2.55v4.91h-4v-11z"/></svg></span>
+            <span class="contact-text">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">Iqra Rizwan</span>
+            </span>
+            <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a href="https://github.com/iqrarizwan5000-lang" class="contact-card reveal" data-delay="320" target="_blank" rel="noopener">
+            <span class="contact-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.81c0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg></span>
+            <span class="contact-text">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">iqrarizwan5000-lang</span>
+            </span>
+            <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">IR</span>
+        <span class="logo-text">Iqra Rizwan</span>
+      </a>
+      <p>&copy; <span id="year"></span> Iqra Rizwan. WordPress Developer.</p>
+      <ul class="footer-social" aria-label="Find me online">
+        <li><a href="https://github.com/iqrarizwan5000-lang" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.81c0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/in/iqra-rizwan-b6431b370" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3v-11zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v5.45h-4v-4.83c0-1.15-.02-2.63-1.6-2.63-1.6 0-1.85 1.25-1.85 2.55v4.91h-4v-11z"/></svg></a></li>
+        <li><a href="mailto:iqra.rizwan5000@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Back-to-top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+  </button>
+
+  <!-- Screenshot gallery (opens when you click a project image) -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+    <div class="lightbox-backdrop" data-close></div>
+    <div class="lightbox-panel">
+      <div class="lightbox-top">
+        <div>
+          <p class="lightbox-title" id="lbTitle"></p>
+          <p class="lightbox-caption" id="lbCaption"></p>
+        </div>
+        <span class="lightbox-counter" id="lbCounter"></span>
+        <button class="lightbox-close" type="button" data-close aria-label="Close gallery">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="lightbox-stage" id="lbStage">
+        <button class="lightbox-nav prev" type="button" id="lbPrev" aria-label="Previous screenshot">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <img id="lbImage" src="" alt="">
+        <button class="lightbox-nav next" type="button" id="lbNext" aria-label="Next screenshot">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="lightbox-thumbs" id="lbThumbs"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
